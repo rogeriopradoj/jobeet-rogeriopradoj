@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites failures="0" errors="0" tests="43" assertions="43" skipped="3">
+  <testsuite name="sfTestFunctionalBase.class" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTestFunctionalBase.class.php" failures="0" errors="0" skipped="0" tests="11" assertions="11">
+    <testcase name="request parameter &quot;module&quot; is &quot;category&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;action&quot; is &quot;show&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;slug&quot; is &quot;programming&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;module&quot; is &quot;category&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;action&quot; is &quot;show&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;slug&quot; is &quot;programming&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="response selector &quot;.jobs tr&quot; matches &quot;20&quot; times" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="93" assertions="1"/>
+    <testcase name="response selector &quot;.pagination_desc&quot; matches regex &quot;/32 jobs/&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="104" assertions="1"/>
+    <testcase name="response selector &quot;.pagination_desc&quot; matches regex &quot;#page 1/2#&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="104" assertions="1"/>
+    <testcase name="request parameter &quot;page&quot; is &quot;2&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="response selector &quot;.pagination_desc&quot; matches regex &quot;#page 2/2#&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="104" assertions="1"/>
+  </testsuite>
+  <testsuite name="sfTestFunctionalBase.class" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTestFunctionalBase.class.php" failures="0" errors="0" skipped="0" tests="15" assertions="15">
+    <testcase name="request parameter &quot;module&quot; is &quot;job&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;action&quot; is &quot;index&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="response selector &quot;.jobs td.position:contains(&quot;expired&quot;)&quot; does not exist" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="85" assertions="1"/>
+    <testcase name="response selector &quot;.category_programming tr&quot; matches &quot;10&quot; times" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="93" assertions="1"/>
+    <testcase name="response selector &quot;.category_design .more_jobs&quot; does not exist" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="85" assertions="1"/>
+    <testcase name="response selector &quot;.category_programming .more_jobs&quot; exists" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="89" assertions="1"/>
+    <testcase name="response selector &quot;.category_programming tr:first a[href*=&quot;/1783/&quot;]&quot; exists" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="89" assertions="1"/>
+    <testcase name="request parameter &quot;module&quot; is &quot;job&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;action&quot; is &quot;show&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;company_slug&quot; is &quot;company-121&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;location_slug&quot; is &quot;paris-france&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;position_slug&quot; is &quot;web-developer&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="request parameter &quot;id&quot; is &quot;1783&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterRequest.class.php" line="48" assertions="1"/>
+    <testcase name="status code is &quot;404&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="412" assertions="1"/>
+    <testcase name="status code is &quot;404&quot;" file="C:\xamppPessoal\htdocs\jobeet\lib\vendor\symfony\lib\test\sfTesterResponse.class.php" line="412" assertions="1"/>
+  </testsuite>
+  <testsuite name="JobeetTest" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" failures="0" errors="0" skipped="0" tests="9" assertions="9">
+    <testcase name="::slugify() converts all characters to lower case" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" line="8" assertions="1"/>
+    <testcase name="::slugify() replaces a white space by a -" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" line="9" assertions="1"/>
+    <testcase name="::slugify() replaces several white spaces by a single -" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" line="10" assertions="1"/>
+    <testcase name="::slugify() removes - at the beginning of a string" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" line="11" assertions="1"/>
+    <testcase name="::slugify() removes - at the end of a string" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" line="12" assertions="1"/>
+    <testcase name="::slugify() replaces non-ASCII characters by a -" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" line="13" assertions="1"/>
+    <testcase name="::slugify() converts the empty string to n-a" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" line="14" assertions="1"/>
+    <testcase name="::slugify() converts a string that only contains non-ASCII characters to n-a" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" line="15" assertions="1"/>
+    <testcase name="::slugify() removes accents" file="C:\xamppPessoal\htdocs\jobeet\test\unit\JobeetTest.php" line="18" assertions="1"/>
+  </testsuite>
+  <testsuite name="JobeetCategoryTest" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetCategoryTest.php" failures="0" errors="0" skipped="3" tests="3" assertions="3">
+    <testcase name="# TODO -&gt;getActiveJobs" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetCategoryTest.php" line="5" assertions="1"/>
+    <testcase name="# TODO -&gt;countActiveJobs" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetCategoryTest.php" line="6" assertions="1"/>
+    <testcase name="# TODO -&gt;getActiveJobsQuery" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetCategoryTest.php" line="7" assertions="1"/>
+  </testsuite>
+  <testsuite name="JobeetJobTest" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetJobTest.php" failures="0" errors="0" skipped="0" tests="5" assertions="5">
+    <testcase name="-&gt;getCompanySlug() return the slug for the company" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetJobTest.php" line="9" assertions="1"/>
+    <testcase name="-&gt;save() updates expires_at if not set" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetJobTest.php" line="15" assertions="1"/>
+    <testcase name="-&gt;save() does not update expires_at if set" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetJobTest.php" line="19" assertions="1"/>
+    <testcase name="-&gt;getPositionSlug() return the slug for the position" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetJobTest.php" line="51" assertions="1"/>
+    <testcase name="-&gt;getLocationSlug() return the slug for the location" file="C:\xamppPessoal\htdocs\jobeet\test\unit\model\JobeetJobTest.php" line="55" assertions="1"/>
+  </testsuite>
+</testsuites>

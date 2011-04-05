@@ -51,7 +51,7 @@ JobeetJob:
   expired_job:
     JobeetCategory: programming
     company:        Sensio Labs
-    position:       Web Developer
+    position:       job_expired
     location:       Paris, France
     description:    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     how_to_apply:   Send your resume to lorem.ipsum [at] dolor.sit
