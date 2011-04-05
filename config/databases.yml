@@ -2,7 +2,13 @@ all:
   doctrine:
     class: sfDoctrineDatabase
     param:
-      #dsn: 'sqlite::memory:'
       dsn: 'sqlite:%SF_DATA_DIR%/base.sqlite'
+      username: root
+      password: null
+test:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      dsn: 'sqlite:%SF_DATA_DIR%/base_test.sqlite'
       username: root
       password: null
